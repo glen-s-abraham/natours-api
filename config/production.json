@@ -1,0 +1,6 @@
+{
+    "app":{
+        "host":"natours.com",
+        "port":8080
+    }
+}
