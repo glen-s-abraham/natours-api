@@ -6,8 +6,8 @@ const {
 
 const {postTourValidation}=require('../middlewares/TourValidations')
 
-const {checkID} = require('../controllers/TourController')
-router.param('id',checkID)
+// const {checkID} = require('../controllers/TourController')
+// router.param('id',checkID)
 
 router.route('/')
     .get(getAllTours)
